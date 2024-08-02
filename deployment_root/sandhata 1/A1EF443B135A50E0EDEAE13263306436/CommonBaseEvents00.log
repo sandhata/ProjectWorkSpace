@@ -1,0 +1,855 @@
+<CommonBaseEvent creationTime="2024-07-24T13:20:22.714Z" globalInstanceId="A1EF49BF7BD2D2D0C054E53461396433" msg="RPXE0001W 4 users successfully added" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>16</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>49</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.6" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2024-07-24T13:20:28.594Z" msg="Unable to find an exact match for CDP version 126, so returning the closest version found: a no-op implementation" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>17</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>52</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>WARNING</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>900</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>org.openqa.selenium.devtools.CdpVersionFinder</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sourceClassName" type="string">
+		<values>org.openqa.selenium.devtools.CdpVersionFinder</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sourceMethodName" type="string">
+		<values>findNearestMatch</values>
+	</extendedDataElements>
+	<sourceComponentId component="Logging" componentIdType="Application" executionEnvironment="Java" location="192.168.1.6" locationType="IPV4" subComponent="Logger" componentType="Logging_Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2024-07-24T13:20:28.594Z" msg="Unable to find an exact match for CDP version 126, so returning the closest version found: a no-op implementation" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>18</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>53</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>WARNING</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>900</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>org.openqa.selenium.devtools.CdpVersionFinder</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sourceClassName" type="string">
+		<values>org.openqa.selenium.devtools.CdpVersionFinder</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sourceMethodName" type="string">
+		<values>findNearestMatch</values>
+	</extendedDataElements>
+	<sourceComponentId component="Logging" componentIdType="Application" executionEnvironment="Java" location="192.168.1.6" locationType="IPV4" subComponent="Logger" componentType="Logging_Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2024-07-24T13:20:28.599Z" msg="Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.4` where the version (&quot;v86&quot;) matches the version of the chromium-based browser you&apos;re using and the version number of the artifact is the same as Selenium&apos;s." severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>20</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>52</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>WARNING</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>900</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>org.openqa.selenium.chromium.ChromiumDriver</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sourceClassName" type="string">
+		<values>org.openqa.selenium.chromium.ChromiumDriver</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sourceMethodName" type="string">
+		<values>lambda$new$3</values>
+	</extendedDataElements>
+	<sourceComponentId component="Logging" componentIdType="Application" executionEnvironment="Java" location="192.168.1.6" locationType="IPV4" subComponent="Logger" componentType="Logging_Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2024-07-24T13:20:28.597Z" msg="Unable to find an exact match for CDP version 126, so returning the closest version found: a no-op implementation" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>19</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>56</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>WARNING</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>900</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>org.openqa.selenium.devtools.CdpVersionFinder</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sourceClassName" type="string">
+		<values>org.openqa.selenium.devtools.CdpVersionFinder</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sourceMethodName" type="string">
+		<values>findNearestMatch</values>
+	</extendedDataElements>
+	<sourceComponentId component="Logging" componentIdType="Application" executionEnvironment="Java" location="192.168.1.6" locationType="IPV4" subComponent="Logger" componentType="Logging_Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2024-07-24T13:20:28.600Z" msg="Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.4` where the version (&quot;v86&quot;) matches the version of the chromium-based browser you&apos;re using and the version number of the artifact is the same as Selenium&apos;s." severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>21</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>53</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>WARNING</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>900</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>org.openqa.selenium.chromium.ChromiumDriver</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sourceClassName" type="string">
+		<values>org.openqa.selenium.chromium.ChromiumDriver</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sourceMethodName" type="string">
+		<values>lambda$new$3</values>
+	</extendedDataElements>
+	<sourceComponentId component="Logging" componentIdType="Application" executionEnvironment="Java" location="192.168.1.6" locationType="IPV4" subComponent="Logger" componentType="Logging_Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2024-07-24T13:20:28.602Z" msg="Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.4` where the version (&quot;v86&quot;) matches the version of the chromium-based browser you&apos;re using and the version number of the artifact is the same as Selenium&apos;s." severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>22</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>56</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>WARNING</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>900</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>org.openqa.selenium.chromium.ChromiumDriver</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sourceClassName" type="string">
+		<values>org.openqa.selenium.chromium.ChromiumDriver</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sourceMethodName" type="string">
+		<values>lambda$new$3</values>
+	</extendedDataElements>
+	<sourceComponentId component="Logging" componentIdType="Application" executionEnvironment="Java" location="192.168.1.6" locationType="IPV4" subComponent="Logger" componentType="Logging_Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2024-07-24T13:20:28.669Z" msg="Unable to find an exact match for CDP version 126, so returning the closest version found: a no-op implementation" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>23</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>46</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>WARNING</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>900</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>org.openqa.selenium.devtools.CdpVersionFinder</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sourceClassName" type="string">
+		<values>org.openqa.selenium.devtools.CdpVersionFinder</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sourceMethodName" type="string">
+		<values>findNearestMatch</values>
+	</extendedDataElements>
+	<sourceComponentId component="Logging" componentIdType="Application" executionEnvironment="Java" location="192.168.1.6" locationType="IPV4" subComponent="Logger" componentType="Logging_Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2024-07-24T13:20:28.670Z" msg="Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.4` where the version (&quot;v86&quot;) matches the version of the chromium-based browser you&apos;re using and the version number of the artifact is the same as Selenium&apos;s." severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>24</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>46</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>WARNING</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>900</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>org.openqa.selenium.chromium.ChromiumDriver</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sourceClassName" type="string">
+		<values>org.openqa.selenium.chromium.ChromiumDriver</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sourceMethodName" type="string">
+		<values>lambda$new$3</values>
+	</extendedDataElements>
+	<sourceComponentId component="Logging" componentIdType="Application" executionEnvironment="Java" location="192.168.1.6" locationType="IPV4" subComponent="Logger" componentType="Logging_Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2024-07-24T13:20:54.888Z" msg="Unable to find an exact match for CDP version 126, so returning the closest version found: a no-op implementation" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>28</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>54</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>WARNING</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>900</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>org.openqa.selenium.devtools.CdpVersionFinder</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sourceClassName" type="string">
+		<values>org.openqa.selenium.devtools.CdpVersionFinder</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sourceMethodName" type="string">
+		<values>findNearestMatch</values>
+	</extendedDataElements>
+	<sourceComponentId component="Logging" componentIdType="Application" executionEnvironment="Java" location="192.168.1.6" locationType="IPV4" subComponent="Logger" componentType="Logging_Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2024-07-24T13:20:54.890Z" msg="Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.4` where the version (&quot;v86&quot;) matches the version of the chromium-based browser you&apos;re using and the version number of the artifact is the same as Selenium&apos;s." severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>29</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>54</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>WARNING</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>900</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>org.openqa.selenium.chromium.ChromiumDriver</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sourceClassName" type="string">
+		<values>org.openqa.selenium.chromium.ChromiumDriver</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sourceMethodName" type="string">
+		<values>lambda$new$3</values>
+	</extendedDataElements>
+	<sourceComponentId component="Logging" componentIdType="Application" executionEnvironment="Java" location="192.168.1.6" locationType="IPV4" subComponent="Logger" componentType="Logging_Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2024-07-24T13:20:54.928Z" msg="Unable to find an exact match for CDP version 126, so returning the closest version found: a no-op implementation" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>30</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>48</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>WARNING</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>900</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>org.openqa.selenium.devtools.CdpVersionFinder</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sourceClassName" type="string">
+		<values>org.openqa.selenium.devtools.CdpVersionFinder</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sourceMethodName" type="string">
+		<values>findNearestMatch</values>
+	</extendedDataElements>
+	<sourceComponentId component="Logging" componentIdType="Application" executionEnvironment="Java" location="192.168.1.6" locationType="IPV4" subComponent="Logger" componentType="Logging_Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2024-07-24T13:20:54.929Z" msg="Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.4` where the version (&quot;v86&quot;) matches the version of the chromium-based browser you&apos;re using and the version number of the artifact is the same as Selenium&apos;s." severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>31</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>48</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>WARNING</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>900</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>org.openqa.selenium.chromium.ChromiumDriver</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sourceClassName" type="string">
+		<values>org.openqa.selenium.chromium.ChromiumDriver</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sourceMethodName" type="string">
+		<values>lambda$new$3</values>
+	</extendedDataElements>
+	<sourceComponentId component="Logging" componentIdType="Application" executionEnvironment="Java" location="192.168.1.6" locationType="IPV4" subComponent="Logger" componentType="Logging_Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2024-07-24T13:20:54.989Z" msg="Unable to find an exact match for CDP version 126, so returning the closest version found: a no-op implementation" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>32</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>55</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>WARNING</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>900</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>org.openqa.selenium.devtools.CdpVersionFinder</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sourceClassName" type="string">
+		<values>org.openqa.selenium.devtools.CdpVersionFinder</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sourceMethodName" type="string">
+		<values>findNearestMatch</values>
+	</extendedDataElements>
+	<sourceComponentId component="Logging" componentIdType="Application" executionEnvironment="Java" location="192.168.1.6" locationType="IPV4" subComponent="Logger" componentType="Logging_Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2024-07-24T13:20:54.990Z" msg="Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.4` where the version (&quot;v86&quot;) matches the version of the chromium-based browser you&apos;re using and the version number of the artifact is the same as Selenium&apos;s." severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>33</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>55</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>WARNING</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>900</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>org.openqa.selenium.chromium.ChromiumDriver</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sourceClassName" type="string">
+		<values>org.openqa.selenium.chromium.ChromiumDriver</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sourceMethodName" type="string">
+		<values>lambda$new$3</values>
+	</extendedDataElements>
+	<sourceComponentId component="Logging" componentIdType="Application" executionEnvironment="Java" location="192.168.1.6" locationType="IPV4" subComponent="Logger" componentType="Logging_Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2024-07-24T13:20:56.575Z" msg="Unable to find an exact match for CDP version 126, so returning the closest version found: a no-op implementation" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>35</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>53</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>WARNING</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>900</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>org.openqa.selenium.devtools.CdpVersionFinder</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sourceClassName" type="string">
+		<values>org.openqa.selenium.devtools.CdpVersionFinder</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sourceMethodName" type="string">
+		<values>findNearestMatch</values>
+	</extendedDataElements>
+	<sourceComponentId component="Logging" componentIdType="Application" executionEnvironment="Java" location="192.168.1.6" locationType="IPV4" subComponent="Logger" componentType="Logging_Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2024-07-24T13:20:56.575Z" msg="Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.4` where the version (&quot;v86&quot;) matches the version of the chromium-based browser you&apos;re using and the version number of the artifact is the same as Selenium&apos;s." severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>36</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>53</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>WARNING</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>900</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>org.openqa.selenium.chromium.ChromiumDriver</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sourceClassName" type="string">
+		<values>org.openqa.selenium.chromium.ChromiumDriver</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sourceMethodName" type="string">
+		<values>lambda$new$3</values>
+	</extendedDataElements>
+	<sourceComponentId component="Logging" componentIdType="Application" executionEnvironment="Java" location="192.168.1.6" locationType="IPV4" subComponent="Logger" componentType="Logging_Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2024-07-24T13:22:43.529Z" globalInstanceId="A1EF49BFCF2E8B90C054E53461396433" msg="RPXE0001W *** stop(30000) commencing   Container:  Engine   &lt;Stopper&gt;" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>39</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>49</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.6" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2024-07-24T13:22:43.529Z" globalInstanceId="A1EF49BFCF2E8B91C054E53461396433" msg="RPXE0001W 7.7.300 Engine STOP reason All Agents Inactive" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>40</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>49</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.6" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2024-07-24T13:22:43.529Z" globalInstanceId="A1EF49BFCF2E8B92C054E53461396433" msg="RPXE0001W Problem Determination Log Statistics" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>41</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>49</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.6" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2024-07-24T13:22:43.529Z" globalInstanceId="A1EF49BFCF2E8B93C054E53461396433" msg="RPXE0001W PDLog rejected=0" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>42</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>49</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.6" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2024-07-24T13:22:43.529Z" globalInstanceId="A1EF49BFCF2E8B94C054E53461396433" msg="RPXE0001W *** stop(30000) completed   &lt;Stopper&gt;" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>43</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>49</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.6" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2024-07-24T13:22:43.529Z" globalInstanceId="A1EF49BFCF2E8B95C054E53461396433" msg="RPXE0001W BREW actions completed = 287" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>44</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>49</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.6" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2024-07-24T13:22:43.529Z" globalInstanceId="A1EF49BFCF2E8B96C054E53461396433" msg="RPXE0001W BREW largest pool size = 10" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>45</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>49</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.6" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2024-07-24T13:22:43.529Z" globalInstanceId="A1EF49BFCF2FC410C054E53461396433" msg="RPXE0001W Engine STOP commencing worker finalizers" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>46</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>49</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.6" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2024-07-24T13:22:43.633Z" globalInstanceId="A1EF49BFCF3E6A10C054E53461396433" msg="RPXE0001W Engine STOP wait for finalizers done  completed=10 poolsize=10" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>47</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>49</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.6" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2024-07-24T13:22:46.092Z" globalInstanceId="A1EF49BFD0B5A0C0C054E53461396433" msg="RPXE0001W Virtual User Stop Statistics" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>48</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>49</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.6" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2024-07-24T13:22:46.092Z" globalInstanceId="A1EF49BFD0B5A0C1C054E53461396433" msg="RPXE0001W Stop reason Unknown:  4 users" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>49</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>49</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.6" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2024-07-24T13:22:46.092Z" globalInstanceId="A1EF49BFD0B5A0C2C054E53461396433" msg="RPXE0001W    [User Group 1][000001] stopped at 135437" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>50</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>49</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.6" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2024-07-24T13:22:46.092Z" globalInstanceId="A1EF49BFD0B7EAB0C054E53461396433" msg="RPXE0001W    [User Group 1][000003] stopped at 135359" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>51</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>49</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.6" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2024-07-24T13:22:46.092Z" globalInstanceId="A1EF49BFD0B7EAB1C054E53461396433" msg="RPXE0001W    [User Group 1][000002] stopped at 137842" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>52</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>49</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.6" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2024-07-24T13:22:46.092Z" globalInstanceId="A1EF49BFD0B7EAB2C054E53461396433" msg="RPXE0001W    [User Group 1][000004] stopped at 135548" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>53</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>49</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.6" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>
+<CommonBaseEvent creationTime="2024-07-24T13:22:52.984Z" globalInstanceId="A1EF49BFD4D1B8B0C054E53461396433" msg="RPXE0001W *** Runner process finished normally ***   &lt;main&gt;" severity="50" version="1.0.1">
+	<extendedDataElements name="CommonBaseEventLogRecord:level" type="noValue">
+		<children name="CommonBaseEventLogRecord:name" type="string">
+			<values>SEVERE</values>
+		</children>
+		<children name="CommonBaseEventLogRecord:value" type="int">
+			<values>1000</values>
+		</children>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:sequenceNumber" type="long">
+		<values>54</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:threadID" type="int">
+		<values>49</values>
+	</extendedDataElements>
+	<extendedDataElements name="CommonBaseEventLogRecord:loggerName" type="string">
+		<values>com.ibm.rational.test.lt.core.logging.PDExecutionLog</values>
+	</extendedDataElements>
+	<sourceComponentId application="DevOps Test Performance" component="Performance Test Type" componentIdType="Application" executionEnvironment="Java" location="192.168.1.6" locationType="IPV4" subComponent="com.ibm.rational.test.lt.kernel_6.1.0" componentType="Hyades Data Collection Engine Application"/>
+	<situation categoryName="ReportSituation">
+		<situationType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ReportSituation" reasoningScope="INTERNAL" reportCategory="LOG"/>
+	</situation>
+</CommonBaseEvent>

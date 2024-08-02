@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="A1EF443A05F307E0EDEAE13263306436">
+		<section name="ShowDatapoolCandidatesDialog">
+			<item value="true" key="show_candidates"/>
+		</section>
+	</section>
+	<section name="A1EF443CF838C010EDEAE13263306436">
+		<section name="ShowDatapoolCandidatesDialog">
+			<item value="true" key="show_candidates"/>
+		</section>
+	</section>
+	<section name="customcode">
+		<item value="customcode" key="defpkg"/>
+	</section>
+	<section name="A1EF442BD3C46240EDEAE13263306436">
+		<section name="ShowDatapoolCandidatesDialog">
+			<item value="true" key="show_candidates"/>
+		</section>
+	</section>
+	<section name="defaultBuiltinDataSourceSelection">
+		<section name="bids.current.time">
+		</section>
+		<section name="bids.sequence.number">
+		</section>
+		<section name="bids.random.number">
+		</section>
+		<section name="bids.current.date">
+		</section>
+	</section>
+</section>

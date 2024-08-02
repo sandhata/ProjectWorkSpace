@@ -1,0 +1,294 @@
+name: Netflix
+version: 2
+projectReferences: 
+resources: 
+  - name: .classpath
+    type: com.ibm.rational.test.lt.classpath
+    dependencies: 
+      - path: /Netflix/src
+        type: javaClasspath
+  - name: Amazon_1721823232558.stats
+    type: com.ibm.rational.test.lt.stats.session
+    properties: 
+      startTime: 1721823232558
+      tags: 
+      testId: A1EF443CF838C010EDEAE13263306436
+      testName: Amazon
+    dependencies: 
+      - path: /Netflix/Amazon_1721823232558.xmoebreport
+        type: statsSessionAsset
+      - path: /Netflix/Amazon_1721823232558_orch!system.mstats
+        type: statsSessionStore
+      - path: /Netflix/Amazon_1721823232558_orch!system.rstats
+        type: statsSessionStore
+      - path: /Netflix/Amazon_1721823232558_perf!localhost.mstats
+        type: statsSessionStore
+      - path: /Netflix/Amazon_1721823232558_perf!localhost.rstats
+        type: statsSessionStore
+      - path: /Netflix/Amazon_1721823233930.executiondlr
+        type: statsSessionAsset
+      - path: /Netflix/src/Amazon.testsuite
+        type: statsSessionTest
+  - name: Amazon_1721823232558.xmoebreport
+  - name: Amazon_1721823232558_orch!system.mstats
+  - name: Amazon_1721823232558_orch!system.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: Amazon_1721823232558_perf!localhost.mstats
+  - name: Amazon_1721823232558_perf!localhost.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: Amazon_1721823233930.executiondlr
+  - name: CountBasedScheduler.testsuite
+    type: com.ibm.rational.test.lt.schedule
+    version: 11.0.0.0
+    properties: 
+      description: 'Stages:
+
+	users=4; duration=5 minutes
+
+User Group 1: Group Size 100.0 percent
+
+	Test(s): Netflix_WebUI
+
+'
+      name: CountBasedScheduler
+      type: com.ibm.rational.test.common.schedule.Schedule
+      uid: A1EF44347F3BAC20EDEAE13263306436
+    dependencies: 
+      - path: /Netflix/src/Netflix_WebUI.testsuite
+        type: scheduleInvokedTest
+  - name: CountBasedScheduler_1721824948722.stats
+    type: com.ibm.rational.test.lt.stats.session
+    properties: 
+      startTime: 1721824948722
+      tags: 
+      testId: A1EF44347F3BAC20EDEAE13263306436
+      testName: CountBasedScheduler
+    dependencies: 
+      - path: /Netflix/CountBasedScheduler.testsuite
+        type: statsSessionTest
+      - path: /Netflix/CountBasedScheduler_1721824948722.xmoebreport
+        type: statsSessionAsset
+      - path: /Netflix/CountBasedScheduler_1721824948722_orch!system.mstats
+        type: statsSessionStore
+      - path: /Netflix/CountBasedScheduler_1721824948722_orch!system.rstats
+        type: statsSessionStore
+      - path: /Netflix/CountBasedScheduler_1721824948722_perf!localhost.mstats
+        type: statsSessionStore
+      - path: /Netflix/CountBasedScheduler_1721824948722_perf!localhost.rstats
+        type: statsSessionStore
+      - path: /Netflix/CountBasedScheduler_1721824953836.executiondlr
+        type: statsSessionAsset
+  - name: CountBasedScheduler_1721824948722.xmoebreport
+  - name: CountBasedScheduler_1721824948722_orch!system.mstats
+  - name: CountBasedScheduler_1721824948722_orch!system.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: CountBasedScheduler_1721824948722_perf!localhost.mstats
+  - name: CountBasedScheduler_1721824948722_perf!localhost.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: CountBasedScheduler_1721824953836.executiondlr
+  - name: Netflix_WebUI_1721823462610.stats
+    type: com.ibm.rational.test.lt.stats.session
+    properties: 
+      startTime: 1721823462610
+      tags: 
+      testId: A1EF442BD3C46240EDEAE13263306436
+      testName: Netflix_WebUI
+    dependencies: 
+      - path: /Netflix/Netflix_WebUI_1721823462610.xmoebreport
+        type: statsSessionAsset
+      - path: /Netflix/Netflix_WebUI_1721823462610_orch!system.mstats
+        type: statsSessionStore
+      - path: /Netflix/Netflix_WebUI_1721823462610_orch!system.rstats
+        type: statsSessionStore
+      - path: /Netflix/Netflix_WebUI_1721823462610_perf!localhost.mstats
+        type: statsSessionStore
+      - path: /Netflix/Netflix_WebUI_1721823462610_perf!localhost.rstats
+        type: statsSessionStore
+      - path: /Netflix/Netflix_WebUI_1721823463790.executiondlr
+        type: statsSessionAsset
+      - path: /Netflix/src/Netflix_WebUI.testsuite
+        type: statsSessionTest
+  - name: Netflix_WebUI_1721823462610.xmoebreport
+  - name: Netflix_WebUI_1721823462610_orch!system.mstats
+  - name: Netflix_WebUI_1721823462610_orch!system.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: Netflix_WebUI_1721823462610_perf!localhost.mstats
+  - name: Netflix_WebUI_1721823462610_perf!localhost.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: Netflix_WebUI_1721823463790.executiondlr
+  - name: ParrallelRunCountBasedScheduler.testsuite
+    type: com.ibm.rational.test.lt.schedule
+    version: 11.0.0.0
+    properties: 
+      description: 'Stages:
+
+	users=4; duration=5 minutes
+
+User Group 1: Group Size 100.0 percent
+
+	Test(s): Amazon,Netflix_WebUI
+
+'
+      name: ParrallelRunCountBasedScheduler
+      type: com.ibm.rational.test.common.schedule.Schedule
+      uid: A1EF443B135A50E0EDEAE13263306436
+    dependencies: 
+      - path: /Netflix/src/Amazon.testsuite
+        type: scheduleInvokedTest
+      - path: /Netflix/src/Netflix_WebUI.testsuite
+        type: scheduleInvokedTest
+  - name: ParrallelRunCountBasedScheduler_1721827207156.stats
+    type: com.ibm.rational.test.lt.stats.session
+    properties: 
+      startTime: 1721827207156
+      tags: 
+      testId: A1EF443B135A50E0EDEAE13263306436
+      testName: ParrallelRunCountBasedScheduler
+    dependencies: 
+      - path: /Netflix/ParrallelRunCountBasedScheduler.testsuite
+        type: statsSessionTest
+      - path: /Netflix/ParrallelRunCountBasedScheduler_1721827207156.xmoebreport
+        type: statsSessionAsset
+      - path: /Netflix/ParrallelRunCountBasedScheduler_1721827207156_orch!system.mstats
+        type: statsSessionStore
+      - path: /Netflix/ParrallelRunCountBasedScheduler_1721827207156_orch!system.rstats
+        type: statsSessionStore
+      - path: /Netflix/ParrallelRunCountBasedScheduler_1721827207156_perf!localhost.mstats
+        type: statsSessionStore
+      - path: /Netflix/ParrallelRunCountBasedScheduler_1721827207156_perf!localhost.rstats
+        type: statsSessionStore
+      - path: /Netflix/ParrallelRunCountBasedScheduler_1721827212320.executiondlr
+        type: statsSessionAsset
+  - name: ParrallelRunCountBasedScheduler_1721827207156.xmoebreport
+  - name: ParrallelRunCountBasedScheduler_1721827207156_orch!system.mstats
+  - name: ParrallelRunCountBasedScheduler_1721827207156_orch!system.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: ParrallelRunCountBasedScheduler_1721827207156_perf!localhost.mstats
+  - name: ParrallelRunCountBasedScheduler_1721827207156_perf!localhost.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: ParrallelRunCountBasedScheduler_1721827212320.executiondlr
+  - name: TimeBasedScheduler.testsuite
+    type: com.ibm.rational.test.lt.schedule
+    version: 11.0.0.0
+    properties: 
+      description: 'Stages:
+
+	users=3; duration=3 minutes
+
+User Group 1: Group Size 100.0 percent
+
+	Test(s): Netflix_WebUI
+
+'
+      name: TimeBasedScheduler
+      type: com.ibm.rational.test.common.schedule.Schedule
+      uid: A1EF4436801446F0EDEAE13263306436
+    dependencies: 
+      - path: /Netflix/src/Netflix_WebUI.testsuite
+        type: scheduleInvokedTest
+  - name: TimeBasedScheduler_1721826448239.stats
+    type: com.ibm.rational.test.lt.stats.session
+    properties: 
+      startTime: 1721826448239
+      tags: 
+      testId: A1EF4436801446F0EDEAE13263306436
+      testName: TimeBasedScheduler
+    dependencies: 
+      - path: /Netflix/TimeBasedScheduler.testsuite
+        type: statsSessionTest
+      - path: /Netflix/TimeBasedScheduler_1721826448239.xmoebreport
+        type: statsSessionAsset
+      - path: /Netflix/TimeBasedScheduler_1721826448239_orch!system.mstats
+        type: statsSessionStore
+      - path: /Netflix/TimeBasedScheduler_1721826448239_orch!system.rstats
+        type: statsSessionStore
+      - path: /Netflix/TimeBasedScheduler_1721826448239_perf!localhost.mstats
+        type: statsSessionStore
+      - path: /Netflix/TimeBasedScheduler_1721826448239_perf!localhost.rstats
+        type: statsSessionStore
+      - path: /Netflix/TimeBasedScheduler_1721826452498.executiondlr
+        type: statsSessionAsset
+  - name: TimeBasedScheduler_1721826448239.xmoebreport
+  - name: TimeBasedScheduler_1721826448239_orch!system.mstats
+  - name: TimeBasedScheduler_1721826448239_orch!system.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: TimeBasedScheduler_1721826448239_perf!localhost.mstats
+  - name: TimeBasedScheduler_1721826448239_perf!localhost.rstats
+    type: com.ibm.rational.test.lt.stats.raw
+  - name: TimeBasedScheduler_1721826452498.executiondlr
+  - name: _amazon_com_157.ma
+    type: moeb.applicationPackage
+  - name: _netlix_com_75a.ma
+    type: moeb.applicationPackage
+  - name: bin
+    resources: 
+      - name: Amazon.recdata
+      - name: Amazon.recsession
+        type: com.ibm.rational.test.lt.recsession
+        dependencies: 
+          - path: /Netflix/bin/Amazon.recdata
+            type: recsessionRecdata
+      - name: Netflix_WebUI.recdata
+      - name: Netflix_WebUI.recsession
+        type: com.ibm.rational.test.lt.recsession
+        dependencies: 
+          - path: /Netflix/bin/Netflix_WebUI.recdata
+            type: recsessionRecdata
+  - name: netflix_com_d9a.ma
+    type: moeb.applicationPackage
+  - name: src
+    resources: 
+      - name: Amazon.recdata
+      - name: Amazon.recsession
+        type: com.ibm.rational.test.lt.recsession
+        dependencies: 
+          - path: /Netflix/src/Amazon.recdata
+            type: recsessionRecdata
+      - name: Amazon.testsuite
+        type: com.ibm.rational.test.lt.test
+        version: 11.0.0.0
+        properties: 
+          features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.mobileweb'
+          type: com.ibm.rational.test.lt.lttest
+          uid: A1EF443CF838C010EDEAE13263306436
+        dependencies: 
+          - path: /Netflix/src/Amazon.recsession
+            type: testRecsession
+          - path: /Netflix/w_amazon_in_b21.ma
+            type: test#moeb.applicationPackage
+      - name: Netflix_WebUI.recdata
+      - name: Netflix_WebUI.recsession
+        type: com.ibm.rational.test.lt.recsession
+        dependencies: 
+          - path: /Netflix/src/Netflix_WebUI.recdata
+            type: recsessionRecdata
+      - name: Netflix_WebUI.testsuite
+        type: com.ibm.rational.test.lt.test
+        version: 11.0.0.0
+        properties: 
+          features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.mobileweb'
+          type: com.ibm.rational.test.lt.lttest
+          uid: A1EF442BD3C46240EDEAE13263306436
+        dependencies: 
+          - path: /Netflix/netflix_com_d9a.ma
+            type: test#moeb.applicationPackage
+          - path: /Netflix/src/Netflix_WebUI.recsession
+            type: testRecsession
+      - name: test
+        resources: 
+          - name: Amazon_Test_A1EF443CF838C010EDEAE13263306436.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: CountBasedScheduler_Schedule_A1EF44347F3BAC20EDEAE13263306436.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: Netflix_WebUI2_Test_A1EF443A05F307E0EDEAE13263306436.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: Netflix_WebUI_Test_A1EF442BD3C46240EDEAE13263306436.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: ParrallelRunCountBasedScheduler_Schedule_A1EF443B135A50E0EDEAE13263306436.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: PerformanceBasedScheduler_Schedule_A1EF443977967B30EDEAE13263306436.java
+            type: com.ibm.rational.test.lt.generatedCode
+          - name: TimeBasedScheduler_Schedule_A1EF4436801446F0EDEAE13263306436.java
+            type: com.ibm.rational.test.lt.generatedCode
+  - name: w_amazon_in_b21.ma
+    type: moeb.applicationPackage

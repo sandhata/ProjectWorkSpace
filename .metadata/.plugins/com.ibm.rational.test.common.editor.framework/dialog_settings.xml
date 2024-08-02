@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="CEF_NewWizard">
+	</section>
+	<section name="sync-points">
+		<item value="0" key="size"/>
+	</section>
+	<section name="last.test.options.tab">
+		<section name="editor-A1EF443977967B30EDEAE13263306436">
+		</section>
+		<section name="editor-A1EF443A05F307E0EDEAE13263306436">
+		</section>
+		<section name="editor-A1EF44347F3BAC20EDEAE13263306436">
+		</section>
+		<section name="editor-A1EF443B135A50E0EDEAE13263306436">
+		</section>
+		<section name="editor-A1EF443CF838C010EDEAE13263306436">
+		</section>
+		<section name="editor-A1EF442BD3C46240EDEAE13263306436">
+		</section>
+		<section name="editor-A1EF4436801446F0EDEAE13263306436">
+		</section>
+	</section>
+	<section name="EDITOR_STATE">
+		<section name="editor-A1EF443977967B30EDEAE13263306436">
+			<item value="L/Netflix/PerformanceBasedScheduler.testsuite" key="file"/>
+			<item value="0" key="lastEditorViewMode"/>
+			<list key="lastselection">
+				<item value="A1EF4434ADB5DDA0EDEAE13263306436"/>
+			</list>
+		</section>
+		<section name="editor-A1EF443A05F307E0EDEAE13263306436">
+			<item value="L/Netflix/Netflix_WebUI2.testsuite" key="file"/>
+			<item value="0" key="lastEditorViewMode"/>
+			<list key="lastselection">
+				<item value="A1EF443A05F307E0EDEAE13263306436"/>
+			</list>
+		</section>
+		<section name="editor-A1EF44347F3BAC20EDEAE13263306436">
+			<item value="L/Netflix/Scheduler.testsuite" key="file"/>
+			<item value="0" key="lastEditorViewMode"/>
+			<list key="lastselection">
+				<item value="A1EF44347F3BAC20EDEAE13263306436"/>
+			</list>
+		</section>
+		<section name="editor-A1EF443B135A50E0EDEAE13263306436">
+			<item value="L/Netflix/ParrallelRunCountBasedScheduler.testsuite" key="file"/>
+			<item value="0" key="lastEditorViewMode"/>
+			<list key="lastselection">
+				<item value="A1EF4434ADB5DDA0EDEAE13263306436"/>
+			</list>
+		</section>
+		<section name="editor-A1EF443CF838C010EDEAE13263306436">
+			<item value="L/Netflix/src/Amazon.testsuite" key="file"/>
+			<item value="0" key="lastEditorViewMode"/>
+			<list key="lastselection">
+				<item value="A1EF443CF843BC90EDEAE13263306436"/>
+			</list>
+		</section>
+		<section name="editor-A1EF442BD3C46240EDEAE13263306436">
+			<item value="L/Netflix/src/Netflix_WebUI.testsuite" key="file"/>
+			<item value="0" key="lastEditorViewMode"/>
+			<list key="lastselection">
+				<item value="A1EF442BD421EBA2EDEAE13263306436"/>
+			</list>
+		</section>
+		<section name="editor-A1EF4436801446F0EDEAE13263306436">
+			<item value="L/Netflix/TimeBasedScheduler.testsuite" key="file"/>
+			<item value="0" key="lastEditorViewMode"/>
+			<list key="lastFieldSelection">
+				<item value="Label.Loop.Name"/>
+				<item value="5"/>
+				<item value="5"/>
+			</list>
+			<list key="lastselection">
+				<item value="A1EF4436801446F0EDEAE13263306436"/>
+			</list>
+		</section>
+	</section>
+	<section name="com.ibm.rational.test.common.editor.framework.SearchPage">
+		<item value="false" key="srch.label.case.default"/>
+		<item value="false" key="srch.label.limit.default"/>
+		<item value="true" key="srch.label.recursive.default"/>
+		<item value="false" key="srch.label.select.default"/>
+		<item value="false" key="srch.label.regex.default"/>
+	</section>
+</section>

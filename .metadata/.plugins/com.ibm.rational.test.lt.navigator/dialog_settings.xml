@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="LtRenameWizard">
+		<item value="true" key="updateReferences"/>
+		<section name="RefactoringWizard.preview">
+			<item value="600" key="width"/>
+			<item value="400" key="height"/>
+		</section>
+	</section>
+	<section name="LtMoveWizard">
+		<section name="RefactoringWizard.preview">
+			<item value="600" key="width"/>
+			<item value="400" key="height"/>
+		</section>
+	</section>
+	<section name="SelDialog">
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;state&gt;&#x0D;&#x0A;&lt;expanded factory=&quot;org.eclipse.ui.internal.model.ResourceFactory&quot; path=&quot;/Netflix&quot; type=&quot;4&quot;/&gt;&#x0D;&#x0A;&lt;expanded factory=&quot;org.eclipse.ui.internal.model.ResourceFactory&quot; path=&quot;/Netflix/src&quot; type=&quot;2&quot;/&gt;&#x0D;&#x0A;&lt;selected factory=&quot;org.eclipse.ui.internal.model.ResourceFactory&quot; path=&quot;/Netflix/src/Amazon.testsuite&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;/state&gt;" key="selectTests.state"/>
+	</section>
+	<section name="LtDeleteWizard">
+		<item value="true" key="removeReferences"/>
+		<section name="RefactoringWizard.preview">
+			<item value="600" key="width"/>
+			<item value="400" key="height"/>
+		</section>
+	</section>
+</section>
